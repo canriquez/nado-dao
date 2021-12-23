@@ -75,6 +75,7 @@ In the root of the project, create a .env file to include the following keys:
 PRIVATE_KEY=<INCLUDE YOUR VALUES FROM THE PROJECT>
 WALLET_ADDRESS=<INCLUDE YOUR VALUES FROM THE PROJECT>
 ALCHEMY_API_URL=<INCLUDE YOUR VALUES FROM THE PROJECT>
+```
 
 ## Authors
 

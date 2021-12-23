@@ -46,6 +46,7 @@ h1 {
 .connect-wallet,
 .mint-nft,
 .member-page {
+  position: relative;
   flex-direction: column;
   width: 960px;
   max-width: calc(100% - 1rem);
@@ -55,6 +56,10 @@ h1 {
   align-content: center;
   display: flex;
   text-align: center;
+}
+.brand{
+  position: relative;
+
 }
 
 .member-page > div {

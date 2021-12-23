@@ -25,6 +25,9 @@ ReactDOM.render(
     >
     <div className="hero-image">
       <div className="landing">
+        <a id="brand" className="brand" href="https://github.com/canriquez">
+            <img src="https://img.shields.io/badge/by-Carlos%20Anriquez-red" alt="carlos anriquez" />
+        </a>
         <App />
       </div>
     </div>
