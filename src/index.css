@@ -1,5 +1,6 @@
 html,
 body {
+  background-image: ;
   margin: 0;
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -138,4 +139,34 @@ button:focus {
 button:disabled {
   opacity: 0.8;
   pointer-events: none;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/swimmingpool.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  width: 100vw; /* You must set a specified height */
+  background-position: unset; /* Center the image */
+  background-repeat: unset; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.dory-logo-sm {
+  width: 200px;
+}
+
+.logo-motto {
+  font-family: 'Vujahday Script', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;;
+}
+
+.landing-logo-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
