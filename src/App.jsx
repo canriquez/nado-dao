@@ -192,7 +192,7 @@ const App = () => {
       <div className="landing">
         <h1>Welcome to NadoDAO</h1>
         <div className="landing-logo-area">
-          <img className="dory-logo-sm" src={DoryLogo} alt="Nado logo" />;
+          <img className="dory-logo-sm" src={DoryLogo} alt="Nado logo" />
           <div className="logo-motto">Just keep swimming</div>
         </div>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
